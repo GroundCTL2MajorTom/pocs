@@ -76,7 +76,7 @@ Upgrade-Insecure-Requests: 1
 
 
 
-### exploit 1: function upgrade_filter.asp
+### exploit 2: function upgrade_filter.asp
 
 After logging in with the default password admin:admin, accessing the upgrade_filter.asp page, and crafting carefully constructed parameters, it is possible to execute commands.
 
