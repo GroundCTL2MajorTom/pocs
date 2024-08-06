@@ -16,7 +16,7 @@ Firmware Name: DI_8004W-16.07.26A1.trx
 
 
 
-The DI-8004W is a certified router for internet behavior management.  There are two command execution vulnerability in its jhttpd's msp_info_htm function and upgrade_filter_asp.
+The DI-8004W is a certified router for internet behavior management.  There are two command execution vulnerabilities in its jhttpd's msp_info_htm function and upgrade_filter_asp function.
 
 affect version:
 
