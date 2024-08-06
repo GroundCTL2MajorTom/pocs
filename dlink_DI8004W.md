@@ -20,15 +20,18 @@ The DI-8004W is a certified router for internet behavior management.  There are 
 
 affect version:
 
-![image-20240806100527691](./weimeng.assets/image-20240806100527691.png)
+![image](https://github.com/user-attachments/assets/8288e5da-4021-4bc8-ac01-cd8d42b8c202)
 
 
 
-![image-20240806100843069](./weimeng.assets/image-20240806100843069.png)
+
+![image](https://github.com/user-attachments/assets/9f0d75fb-1109-4bf3-9ed6-89e8ac40d167)
 
 
 
-![image-20240806100907122](./weimeng.assets/image-20240806100907122.png)
+
+![image](https://github.com/user-attachments/assets/9fc30bff-b7c0-4af3-9442-fdc1db8efebe)
+
 
 
 
@@ -60,7 +63,8 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-![9c23362d185dbc183ced28a1766e908](./weimeng.assets/9c23362d185dbc183ced28a1766e908.png)
+![image](https://github.com/user-attachments/assets/982f8b00-e411-4090-8fe1-27511d0a909f)
+
 
 
 
@@ -100,4 +104,4 @@ Upgrade-Insecure-Requests: 1
 
 ```
 
-![image-20240806100038185](./weimeng.assets/image-20240806100038185.png)
+![image](https://github.com/user-attachments/assets/092f686d-6854-488d-8f3b-f1d7291c07ce)
