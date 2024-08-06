@@ -16,7 +16,7 @@ Firmware Name: DI_8004W-16.07.26A1.trx
 
 
 
-The DI-8004W is a certified router for internet behavior management.  There are two command execution vulnerability in its jhttpd's msp_info_htm function and upgrade_filter.asp.
+The DI-8004W is a certified router for internet behavior management.  There are two command execution vulnerability in its jhttpd's msp_info_htm function and upgrade_filter_asp.
 
 affect version:
 
@@ -35,7 +35,7 @@ affect version:
 
 
 
-### exploit 1: function msp_info.htm
+### exploit 1: function msp_info_htm
 
 After logging in with the default password admin:admin, accessing the msp_info.htm page, and crafting carefully constructed parameters, it is possible to execute commands.
 
@@ -76,7 +76,7 @@ Upgrade-Insecure-Requests: 1
 
 
 
-### exploit 2: function upgrade_filter.asp
+### exploit 2: function upgrade_filter_asp
 
 After logging in with the default password admin:admin, accessing the upgrade_filter.asp page, and crafting carefully constructed parameters, it is possible to execute commands.
 
