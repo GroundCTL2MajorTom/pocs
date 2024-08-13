@@ -9,9 +9,12 @@ Firmware Version: 1.00(AACE.1)C0
 introduction：https://prodotti.zyxel.it/USERSGUIDE/ZYXNWA-1100-N.pdf
 
 NWAW1100-N is an Access Point produced by zyxel. Through reverse analysis, it is found that it has the following three command execution vulnerabilities.
-![7593e17eb3feae2d98250046e4ab4bf](./zyxel NWAW1100-N rce.assets/7593e17eb3feae2d98250046e4ab4bf.jpg)
+
+![898897be3e6e17780180d3e008ce870](https://github.com/user-attachments/assets/106a78eb-1d62-433c-8273-2ef6bf65fcbd)
 ![image](https://github.com/user-attachments/assets/6fcbb93d-d04e-4f77-933d-68b5e23688ae)
 ![image](https://github.com/user-attachments/assets/5f0ee271-0a30-45a6-ac87-8d5d3a724202)
+
+
 
 
 
@@ -44,6 +47,12 @@ requests.post(url, headers=headers, data=data)
 ```
 
 ![image](https://github.com/user-attachments/assets/63dd2830-8a20-4b9a-89dd-8771ab37bf2d)
+
+
+
+
+
+
 
 
 
@@ -83,6 +92,16 @@ requests.post(url, headers=headers, data=data)
 ```
 
 ![image](https://github.com/user-attachments/assets/255fcc5d-4bd2-4e03-9ea3-6624da9c9952)
+
+
+
+
+
+
+
+
+
+
 
 
 #### Vulnerability 3
