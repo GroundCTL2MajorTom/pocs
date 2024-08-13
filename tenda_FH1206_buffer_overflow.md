@@ -15,8 +15,9 @@ FH1206 V1.2.0.8(8155)_EN
 There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **formWrlExtraGet** function. The function receives the `chkHz` parameter from a POST request. ` strcat(v60, src);` The statement will cause a buffer overflow. The `chkHz` value provided by the user may exceed the capacity of the `v60` array, thereby triggering this security vulnerability.
 
 
+![image](https://github.com/user-attachments/assets/8c03a7ba-e77f-47b4-ab99-1a2cbaecb2d9)
 
-![image-20240813193915831](./tenda_FH1206_buffer_overflow.assets/image-20240813193915831.png)
+
 
 ## POC
 
@@ -32,4 +33,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
-![image-20240813193640425](./tenda_FH1206_buffer_overflow.assets/image-20240813193640425.png)
+![image](https://github.com/user-attachments/assets/fb737163-3458-4e23-bf14-cf7e794c1f54)
