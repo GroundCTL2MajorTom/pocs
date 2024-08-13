@@ -12,7 +12,7 @@ FH1206 V1.2.0.8(8155)_EN
 
 There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **frmL7ProtForm** function. The function receives the `page` parameter from a POST request. `   sprintf(v15, "firewall_proto_list.asp?page=%s", v10);` The statement will cause a buffer overflow. The `page` value provided by the user may exceed the capacity of the `v15` array, thereby triggering this security vulnerability.
 
-
+![image](https://github.com/user-attachments/assets/766905c2-ed63-4bff-83c1-b9164697775b)
 
 
 ## POC
@@ -29,3 +29,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
+![image](https://github.com/user-attachments/assets/5544755d-084f-451d-a7fe-33cc028751fe)
