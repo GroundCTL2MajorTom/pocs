@@ -1,6 +1,6 @@
 
 
-# formWrlExtraGet
+# fromSetIpBind
 
 ## Overview
 
@@ -12,11 +12,10 @@ FH1206 V1.2.0.8(8155)_EN
 
 ## Vulnerability details
 
-There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **formWrlExtraGet** function. The function receives the `chkHz` parameter from a POST request. ` strcat(v60, src);` The statement will cause a buffer overflow. The `chkHz` value provided by the user may exceed the capacity of the `v60` array, thereby triggering this security vulnerability.
+There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **fromSetIpBind** function. The function receives the `page` parameter from a POST request. ` sprintf(v8, "arp_bind.asp?page=%s", v2); ` The statement will cause a buffer overflow. The `page` value provided by the user may exceed the capacity of the `v8` array, thereby triggering this security vulnerability.
 
 
-
-
+![image](https://github.com/user-attachments/assets/c5882cbd-1911-4357-9c7c-733c660609e3)
 
 ## POC
 
@@ -32,3 +31,4 @@ response = requests.post(url, data=data)
 print(response.text)
 ```
 
+![image](https://github.com/user-attachments/assets/95ed87bd-a5ab-414d-95e9-fcc9e6b0176a)
