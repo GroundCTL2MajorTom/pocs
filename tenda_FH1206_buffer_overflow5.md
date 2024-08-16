@@ -10,7 +10,7 @@ FH1206 V1.2.0.8(8155)_EN
 
 ## Vulnerability details
 
-There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **fromVirtualSer** function. The function receives the `page` parameter from a POST request. `   sprintf(v5, "nat_virtualser.asp?page=%s", v3);` The statement will cause a buffer overflow. The `chkHz` value provided by the user may exceed the capacity of the `v5` array, thereby triggering this security vulnerability.
+There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **fromVirtualSer** function. The function receives the `page` parameter from a POST request. `   sprintf(v5, "nat_virtualser.asp?page=%s", v3);` The statement will cause a buffer overflow. The `page` value provided by the user may exceed the capacity of the `v5` array, thereby triggering this security vulnerability.
 
 
 ![image](https://github.com/user-attachments/assets/2d880d75-b31c-44ef-afdd-3d0e9dcf2330)
