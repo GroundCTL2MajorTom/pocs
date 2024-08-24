@@ -4,15 +4,16 @@
 
 ## Overview
 
-- Firmware download website: https://www.tendacn.com/hk/download/detail-2344.html
+- Firmware download website: https://www.tenda.com.cn/download/detail-2495.html
 
 ## Affected version
 
-FH1206 V1.2.0.8(8155)_EN
+FH1203 V2.0.1.6
 
 ## Vulnerability details
 
-There is a stack buffer overflow vulnerability in Tenda FH1216 V1.2.0.8(8155)_EN, located in the **formWrlsafeset** function. The function receives the `mit_ssid` parameter from a POST request. `   sprintf(v42, "%s\t%s", v23, Var);` The statement will cause a buffer overflow. The `mit_ssid` value provided by the user may exceed the capacity of the `v42` array, thereby triggering this security vulnerability.
+
+There is a stack buffer overflow vulnerability in  FH1203 V2.0.1.6, located in the **formWrlsafeset** function. The function receives the `mit_ssid` parameter from a POST request. `   sprintf(v42, "%s\t%s", v23, Var);` The statement will cause a buffer overflow. The `mit_ssid` value provided by the user may exceed the capacity of the `v42` array, thereby triggering this security vulnerability.
 
 
 ![image](https://github.com/user-attachments/assets/d364f34d-5898-4afa-be92-4bd3393771f4)
